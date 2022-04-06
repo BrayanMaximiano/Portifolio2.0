@@ -1,13 +1,13 @@
 const theme = {
-  background: '#11172B',
+  background: '#1A1A1A',
   backgroundLight: '#1B2138',
-  primary: '#0EE7B7',
-  secondary: '#7AC7E3',
-  gradient: 'linear-gradient(225deg, #313860 0%, #11172B 100%);',
+  primary: '#CCA43B',
+  secondary: '#979797',
+  gradient: 'linear-gradient(225deg, #363636 0%, #1A1A1A 100%);',
   text: '#848DA0',
   textHighlight: '#444B5B',
   textLight: '#C4C4C4',
-  border: '#313958',
+  border: '#CCA43B',
   inputBackground: '#1E253E',
   error: '#d45d5d'
 };

@@ -41,7 +41,7 @@ export const FormContainer = styled.form`
 export const Input = styled.input`
   height: 3rem;
   width: 100%;
-  background: ${({ theme }) => theme.inputBackground};
+  background: ${({ theme }) => darken(0.4, theme.secondary)};
   border: 1px solid ${({ theme }) => theme.border};
   padding: 1.7rem 1.5rem;
   color: ${({ theme }) => theme.primary};
@@ -64,7 +64,7 @@ export const Input = styled.input`
 export const TextArea = styled.textarea`
   height: 10rem;
   width: 100%;
-  background: ${({ theme }) => theme.inputBackground};
+  background: ${({ theme }) => darken(0.4, theme.secondary)};
   border: 1px solid ${({ theme }) => theme.border};
   padding: 1.7rem 1.5rem;
   color: ${({ theme }) => theme.primary};
