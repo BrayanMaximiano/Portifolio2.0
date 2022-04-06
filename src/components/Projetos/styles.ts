@@ -4,7 +4,6 @@ import theme from '../../styles/theme';
 
 interface ProjetoProps {
   imgUrl: string;
-  warging:string;
 }
 
 export const Container = styled.section`
