@@ -1,5 +1,5 @@
 const theme = {
-  background: '#1A1A1A',
+  background: 'radial-gradient(circle, rgba(54,54,54,1) 33%, rgba(26,26,26,1) 100%)',
   backgroundLight: '#1B2138',
   primary: '#CCA43B',
   secondary: '#979797',
