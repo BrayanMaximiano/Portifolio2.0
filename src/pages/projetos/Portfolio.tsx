@@ -7,24 +7,23 @@ export default function Projeto() {
         <ProjetoContainer>
             <Header />
             <BannerProjeto
-                title='Spotify Clone'
-                type='website clone'
-                imgUrl='https://t2.tudocdn.net/493527?w=1920'
+                title='Primeiro Portifolio'
+                type='Portifolio'
+                imgUrl='https://github.com/BrayanMaximiano/Portifolio2.0/blob/main/src/assets/Captura%20de%20Tela%202022-04-16%20a%CC%80s%2000.22.47.png?raw=true'
             />
 
             <main>
-                <p>Projeto Clone do site do aplicativo de musicas Spotify.
-                     Neste projeto, foram ultilizadas as seguintes tecnologias: <br/><br/>
+                <p>Essse foi meu primeiro portifolio desenvolvido no final de 2020.
+                    Nele foram usadas as seguintes tecnologias: <br/><br/>
                     - Java script<br/>
                     - CSS3 <br/>
                     - HTML5 <br/><br/>
 
-                    Musica do Guns n Roses, botao de play e pause estao funcionais.
-
+                    Foi tambem o primeiro projeto em que eu usei media query para fazer a parte da responsividade.
                     
                 </p>
                 <button type='button'>
-                    <a href="https://front-dev-brayan.netlify.app/spotifyclone/spotifyclone">ver Projeto Online</a>
+                    <a href="https://front-dev-brayan.netlify.app">ver Projeto Online</a>
                 </button>
             </main>
 
