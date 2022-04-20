@@ -39,6 +39,13 @@ function Projetos({ projetos }: ProjetosProps) {
           slug='Spotify'
           warning=''
         />
+        <ProjetoItem
+          img='https://vendamodaonline.com.br/wp-content/uploads/2020/01/Como-montar-uma-loja-virtual-de-roupas-1024x682.png'
+          title='UrStore'
+          type='template Ecommerce'
+          slug='Ecommerce'
+          warning='(somente navegador)'
+        />
       </section>
       <button type="button" data-aos="fade-up">
         <Link href="/projetos">
