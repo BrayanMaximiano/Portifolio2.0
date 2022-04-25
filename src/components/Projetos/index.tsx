@@ -28,7 +28,6 @@ function Projetos({ projetos }: ProjetosProps) {
           img='https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/09/Netflix-1200x900-1.jpg'
           title='Clone Netflix'
           type='Website Clone'
-          warning='(Somente navegador)'
           slug='Netflix'
           
         />
