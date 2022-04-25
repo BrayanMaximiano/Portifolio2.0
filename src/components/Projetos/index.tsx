@@ -44,7 +44,6 @@ function Projetos({ projetos }: ProjetosProps) {
           title='UrStore'
           type='template Ecommerce'
           slug='Ecommerce'
-          warning='(somente navegador)'
         />
       </section>
       <button type="button" data-aos="fade-up">
