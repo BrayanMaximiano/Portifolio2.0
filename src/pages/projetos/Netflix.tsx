@@ -24,7 +24,7 @@ export default function Projeto() {
 
                 </p>
                 <button type='button'>
-                    <a href="https://fakeflix-front-dev-brayan-project.netlify.app/">ver Projeto Online</a>
+                    <a href="https://netflixclonereactfrontdevbrayan.vercel.app/">ver Projeto Online</a>
                 </button>
             </main>
 
