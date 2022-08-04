@@ -50,9 +50,11 @@ export default function Form() {
   }
 
   return (
-    <FormContainer data-aos="fade-up" onSubmit={handleSubmit}>
+    <FormContainer data-aos="fade-up" action="https://formsubmit.co/brayanmaximiano01@gmail.com" method="POST">
       <Input
         placeholder="Nome"
+        type="text"
+        name='nome'
         value={nome}
         onChange={({ target }) => setNome(target.value)}
         
@@ -60,6 +62,7 @@ export default function Form() {
       <Input
         placeholder="E-mail"
         type="email"
+        name='email'
         value={email}
         onChange={({ target }) => setEmail(target.value)}
         
@@ -67,6 +70,7 @@ export default function Form() {
       <TextArea
         placeholder="Mensagem"
         value={mensagem}
+        name="mensagem"
         onChange={({ target }) => setMensagem(target.value)}
         
       />
