@@ -74,6 +74,7 @@ export default function Form() {
         onChange={({ target }) => setMensagem(target.value)}
         
       />
+      <input type="hidden" name="_next" value="https://front-dev-brayan.vercel.app/EmailSent"></input>
       <button type="submit" disabled={loading} >
         ENVIAR
       </button>
