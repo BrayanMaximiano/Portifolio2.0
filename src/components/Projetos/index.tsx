@@ -2,6 +2,7 @@ import Link from 'next/link';
 import SectionTitle from '../SectionTitle';
 import ProjetoItem from './ProjetoItem';
 import { Container } from './styles';
+import Ndbg from '../../assets/ndbg.png'
 
 interface IProjeto {
   slug: string;
@@ -25,17 +26,17 @@ function Projetos({ projetos }: ProjetosProps) {
       <section>
       <ProjetoItem
           
+          img={Ndbg}
+          title='Nova Direção Recursos Humanos'
+          type='Trabalho Freelancer'
+          slug='NovaDirecao'
+          
+        />
+        <ProjetoItem
           img='https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/09/Netflix-1200x900-1.jpg'
           title='Clone Netflix'
           type='Website Clone'
           slug='Netflix'
-          
-        />
-        <ProjetoItem
-          img='https://th.bing.com/th/id/R.c5db840096acc1430a8f1ef4a5da3e0a?rik=5C6nd0G58nAuTw&pid=ImgRaw&r=0'
-          title='Clone Spotify'
-          type='Website Clone'
-          slug='Spotify'
           warning=''
         />
         <ProjetoItem
