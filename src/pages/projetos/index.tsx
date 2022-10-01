@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import ProjetoItem from "../../components/ProjetoItem";
 import { ProjetosContainer } from "../../styles/ProjetosStyle";
+import bgnd from '../../assets/ndbg.png'
 
 
 export default function Projetos() {
@@ -14,10 +15,10 @@ export default function Projetos() {
             <main className="container" data-aos="fade-up">
                 <ProjetoItem
 
-                    title="netflix Clone"
-                    type="Website clone"
-                    slug="Netflix"
-                    imgUrl="https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/09/Netflix-1200x900-1.jpg" />
+                    title="Nova Direção Recursos Humanos"
+                    type="Projeto Freelancer"
+                    slug="Novadirecao"
+                    imgUrl={bgnd} />
                 <ProjetoItem
 
                     title="netflix Clone"

@@ -46,7 +46,7 @@ function Projetos({ projetos }: ProjetosProps) {
           slug='Ecommerce'
         />
       </section>
-      <button type="button" data-aos="fade-up">
+      <button type="button" data-aos="zoom-in">
         <Link href="/projetos">
           <a>Ver todos os projetos</a>
         </Link>

@@ -108,6 +108,9 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
         @media (max-width: 415px){
           width: 300px;
         }
+        @media (max-width: 320px){
+          width: 200px;
+        }
       }
       h2 {
         color: ${({ theme }) => theme.secondary};
