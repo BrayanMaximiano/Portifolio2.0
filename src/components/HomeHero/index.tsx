@@ -44,7 +44,7 @@ function HomeHero() {
             Português: <span>
 
               <button>
-                <Link href='https://drive.google.com/file/d/1h9Q_AqsFco4FYqhcnqM7CxnPam3wNxkD/view?usp=sharing'>
+                <Link href='https://drive.google.com/file/d/1Roi6EOAD4bPuQY2UdPxM8546FnGS1fVc/view?usp=drive_link'>
                   <a > Curriculo </a>
                 </Link>
               </button>
@@ -54,7 +54,7 @@ function HomeHero() {
 
             <div>
               Inglês: <span><button>
-                <Link href='https://drive.google.com/file/d/1h-7Q5RlOELZeCMu4jBvstxhmR3m9ZJZc/view?usp=sharing'>
+                <Link href='https://drive.google.com/file/d/1Roi6EOAD4bPuQY2UdPxM8546FnGS1fVc/view?usp=drive_link'>
                   <a > Curriculo </a>
                 </Link>
               </button></span>
